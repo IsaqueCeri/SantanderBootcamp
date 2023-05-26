@@ -1,0 +1,32 @@
+.Zpos {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	min-height: 100px;
+	background-color: #0000CD;
+	color: white;
+}
+
+#menu {
+	list-style: none; 
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+}
+
+.title {
+
+}
+
+.menu_options {
+
+}
