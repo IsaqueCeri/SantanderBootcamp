@@ -21,12 +21,13 @@ header{
 
 #menu {
 	list-style: none; 
-
+	font-size: 20px;
 	align-self: center;
 	margin-right: 70px;
 }
 
 #title {
+	font-size: 32px;
 	align-self: center;
 	margin-left: 70px;
 	color: white;
@@ -107,13 +108,50 @@ header{
 	height: 45%;
 	flex-direction: column;	
 
+	align-content: center;
 	justify-content: center;
 	text-align: left;
 }
 
 .services {
+	flex-direction: column;
+	width: 100%;
+	min-height: 40%;
 	background-color: #122A57;	
+}
 
-	display: flex;
+.services_title {
+	color: white;
+}
+
+.row_services{
+	justify-content: space-around;
 	flex-direction: row;
+	flex-wrap: wrap;
+	
+	min-width: 300px;
+	max-width: 100%;
+}
+
+.travel_package{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.host{
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+}
+
+.chooseWay {
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+}
+button{
+	margin-bottom: 1em;
 }
